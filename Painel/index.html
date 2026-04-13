@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Painel do Brasil</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <input class="buscar_cidade" type="text" placeholder="Digite a Cidade no Brasil">
+            <button class="butao" onclick="buscar()">
+                <img class="img2" src="img/lupa.png">
+            </button>
+
+            <div class="container2">
+                <h1 id="msg"></h1>
+                <h1 id="hour"></h1>
+            </div>
+
+            <div class="container3">
+                <h1 class="cidade">Pesquisa uma Cidade</h1>
+                <p class="graus">...</p>
+            </div>
+
+            <div class="container4">
+                <img class="imagem-preview" src="https://openweathermap.org/payload/api/media/file/10d%402x.png">
+                <p class="nublado">...</p>
+                
+            </div>
+            <p class="umidade">...</p>
+        </div>
+    </section>
+
+    <div class="flex-container">
+    
+        <a href="https://github.com/andrei817" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    
+    </div>
+
+    <footer>
+        <p> &copy; Andrei817 </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
